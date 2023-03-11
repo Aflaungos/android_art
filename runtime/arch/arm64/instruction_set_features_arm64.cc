@@ -134,12 +134,14 @@ Arm64FeaturesUniquePtr Arm64InstructionSetFeatures::FromVariant(
         "cortex-a55",
         "cortex-a75",
         "cortex-a76",
+        "cortex-a77",
         "exynos-m1",
         "exynos-m2",
         "exynos-m3",
         "kryo",
         "kryo300",
         "kryo385",
+        "kryo570",
     };
     if (!FindVariantInArray(arm64_known_variants, arraysize(arm64_known_variants), variant)) {
       std::ostringstream os;
